@@ -1,0 +1,81 @@
+body {
+  padding: 1rem;
+  background: url(/media/survey-form.jpeg), #252545;
+  background-blend-mode:soft-light ;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, p {
+  text-align: center;
+  font-weight: 100;
+}
+
+.form-control input {
+  width: 578px;
+  padding:.6rem;
+  border-radius: 8px;
+}
+
+.role-selector select{
+  width:600px;
+  padding:.6rem;
+  border-radius: 8px;
+}
+
+.container{
+  margin:auto;
+  width:50vw;
+  justify-content: center;
+  background-color:#252545;
+  border-radius: 2px;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-blend-mode:soft-light ;
+  padding: 2.5rem;
+}
+
+.form-control {
+  display: grid;
+  margin-bottom: .8rem;
+  font-size: medium;
+}
+
+#dropdown {
+    font-size: medium;
+}
+
+.role-selector {
+  font-size: medium;
+  margin-bottom: .8rem;
+ }
+
+.checkbox-action {
+  margin: .8rem 0;
+}
+
+.textarea{
+  margin-bottom: .8rem;
+}
+
+textarea  {
+  padding: .8rem;
+  border-radius: 4px;
+  height: 80px;
+}
+
+button {
+  width: 600px;
+  background-color:#37AF65;
+  display:block;
+  margin:auto;
+  padding:.8rem 1.5rem;
+  border-radius: 4px;
+}
+
